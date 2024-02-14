@@ -7,6 +7,9 @@ opt.tabstop = 4
 opt.softtabstop = 4
 opt.shiftwidth = 4
 
+opt.hlsearch = false
+
+opt.clipboard = "" --Overwrite clipboard sync (":set clipboard=" also worked)
 -- opt.swapfile = false
 -- opt.backup = false
 -- opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
@@ -15,5 +18,3 @@ opt.shiftwidth = 4
 opt.scrolloff = 8
 
 opt.updatetime = 50
-
-opt.hlsearch = false
